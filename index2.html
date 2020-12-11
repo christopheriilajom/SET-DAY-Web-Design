@@ -37,13 +37,13 @@
       <form action="mailto:penncorleone@gmail.com" method="POST">
       <div class="form-row">
         <div class="input-data">
-          <input type="text" name="firstName" required>
+          <input type="text" name="firstName" minlength="5" required>
           <div class="underline">
           </div>
           <label for="firstName">First Name</label>
         </div>
         <div class="input-data">
-          <input type="text" name="lastName" required>
+          <input type="text" name="lastName" minlength="5" required>
           <div class="underline">
           </div>
           <label for="lastName">Last Name</label>
@@ -51,12 +51,12 @@
       </div>
       <div class="form-row">
         <div class="input-data">
-          <input type="email" name="email" required>
+          <input type="email" name="email" minlength="5" required>
           <div class="underline"></div>
           <label for="email">Email Address</label>
         </div>
         <div class="input-data">
-          <input type="number" name="contactNumber" required>
+          <input type="number" name="contactNumber" minlength="11" required>
           <div class="underline"></div>
           <label for="contactNumber">Contact Number</label>
         </div>
@@ -71,7 +71,7 @@
       </div>
       <div class="form-row">
         <div class="input-data textarea">
-          <textarea rows="8" cols="80" name="customerNeed" required></textarea> 
+          <textarea rows="8" cols="80" name="customerNeed" minlength="5" required></textarea> 
           <br />
           <div class="underline"></div>
           <label for="customerNeed">Write your needs</label>
