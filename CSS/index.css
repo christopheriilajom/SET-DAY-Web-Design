@@ -1,0 +1,50 @@
+body {
+  background: #70e1f5;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+}
+
+nav a {
+  font-family: "Oswald", Sans-Serif;
+}
+
+hr {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.features {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features img:hover {
+  border-radius: 10px;
+  position: inherit;
+  margin-left: 0;
+  margin-right: 0;
+  width: 270px;
+  height: auto;
+  object-fit: cover;
+  transform: scale(1.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald", Sans-Serif;
+}
+
+h1,
+span {
+  font-family: "Oswald", Sans-Serif;
+}
+
+p {
+  font-family: "Quattrocento", Serif;
+}

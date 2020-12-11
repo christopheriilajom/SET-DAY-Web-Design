@@ -1,0 +1,45 @@
+body {
+  background: #70e1f5;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+}
+hr {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.features {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav a {
+  font-family: "Oswald", Sans-Serif;
+}
+
+h1,
+span {
+  font-family: "Oswald", Sans-Serif;
+}
+
+input,
+textarea {
+  font-family: "Quattrocento", Serif;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #ffd194;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: "Oswald", Sans-Serif;
+  color: black;
+}
